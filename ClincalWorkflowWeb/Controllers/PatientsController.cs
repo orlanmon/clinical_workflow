@@ -45,7 +45,7 @@ namespace clincalworkflow.web.app.Controllers
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             
-            HttpResponseMessage response = await client.GetAsync("http://localhost:34269/api/Patient/Get");
+            HttpResponseMessage response = await client.GetAsync("/api/Patient/Get");
 
             if (response.IsSuccessStatusCode)
             {
