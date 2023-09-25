@@ -1,0 +1,85 @@
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace clincalworkflow.web.app.Controllers
+{
+    public class PatientClinicalDataController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public string GetPatientLookup(int patient_id)
+        {
+
+
+        }
+
+        // GET: Patients/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            return View("Delete");
+
+        }
+
+
+        // POST: Patients/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+
+            return RedirectToAction(nameof(Index));
+
+        }
+
+        // GET: Patients/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return View("Index");
+            }
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            return View("Edit");
+
+        }
+
+
+        // POST: Patients/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind()] PatientClinicalDataDTO patientClinicalData)
+        {
+            PatientDTO objDeserializeObject = null;
+
+
+            if (id != patient.PatientId)
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View("Edit");
+
+            }
+        }
+}

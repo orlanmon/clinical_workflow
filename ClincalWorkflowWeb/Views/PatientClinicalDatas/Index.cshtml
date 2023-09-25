@@ -1,0 +1,77 @@
+﻿@model IEnumerable<clinicalworkflow.web.services.dto.PatientClinicalDataDTO>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldOne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldTwo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldThree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldFive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldSeven)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldFour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClinicalDataFieldSix)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldOne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldTwo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldThree)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldFive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldSeven)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldFourNavigation.ClinicalDataFieldFourValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClinicalDataFieldSixNavigation.ClinicalDataFieldSixValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patient.LastName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatientClinicalDataId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatientClinicalDataId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatientClinicalDataId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

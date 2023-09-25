@@ -107,7 +107,7 @@ namespace clincalworkflow.web.app.Controllers
                 
                 if (!string.IsNullOrEmpty(content))
                 {
-                    PatientDTO objPatient = JsonConvert.DeserializeObject<PatientDTO>(content);
+                    PatientsClinicalDataDTO objPatient = JsonConvert.DeserializeObject<PatientsClinicalDataDTO>(content);
 
                     return View("Details", objPatient);
                 }
@@ -127,7 +127,7 @@ namespace clincalworkflow.web.app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PatientId,LastName,FirstName,AddressOne,City,State,Zip")] PatientDTO patient)
+        public async Task<IActionResult> Create([Bind("PatientId,LastName,FirstName,AddressOne,City,State,Zip")] PatientsClinicalDataDTO patient)
         {
             if (!ModelState.IsValid)
             {
@@ -151,7 +151,7 @@ namespace clincalworkflow.web.app.Controllers
                 var content = await response.Content.ReadAsStringAsync();
                 if (!string.IsNullOrEmpty(content))
                 {
-                    var objDeserializeObject = JsonConvert.DeserializeObject<PatientDTO>(content);
+                    var objDeserializeObject = JsonConvert.DeserializeObject<PatientsClinicalDataDTO>(content);
 
                     Console.WriteLine("Data Saved Successfully.");
 
@@ -192,7 +192,6 @@ namespace clincalworkflow.web.app.Controllers
 
                 var content = await response.Content.ReadAsStringAsync();
 
-                
                 if (!string.IsNullOrEmpty(content))
                 {
                     PatientDTO objPatient = JsonConvert.DeserializeObject<PatientDTO>(content);
@@ -297,12 +296,6 @@ namespace clincalworkflow.web.app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-
-
-            if (id == null)
-            {
-                return NotFound();
-            }
 
             if (!ModelState.IsValid)
             {

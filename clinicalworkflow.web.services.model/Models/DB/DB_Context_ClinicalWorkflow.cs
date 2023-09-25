@@ -16,9 +16,16 @@ namespace clinicalworkflow.web.services.model.Models.DB
 
         string _DataBaseConnection = "";
 
+        
         public DB_Context_ClinicalWorkflow(string DataBaseConnection)
         {
             _DataBaseConnection = DataBaseConnection;
+        }
+        
+
+        public DB_Context_ClinicalWorkflow()
+        {
+
         }
 
         public DB_Context_ClinicalWorkflow(DbContextOptions<DB_Context_ClinicalWorkflow> options)
@@ -37,6 +44,7 @@ namespace clinicalworkflow.web.services.model.Models.DB
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(_DataBaseConnection);
+                optionsBuilder.UseSqlServer("Server = HAL9000\\ORLANMON; Database = ClinicalWorkflow; User ID = sa; Password = GoWestYoungMan_1973;");
             }
         }
 
@@ -111,7 +119,8 @@ namespace clinicalworkflow.web.services.model.Models.DB
 
             modelBuilder.Entity<PatientClinicalData>(entity =>
             {
-                entity.HasNoKey();
+               
+                entity.HasKey(e => e.PatientClinicalDataId);
 
                 entity.ToTable("Patient_Clinical_Data");
 

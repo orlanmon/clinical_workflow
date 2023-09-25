@@ -166,3 +166,12 @@ D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\
 D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\Patients\Details.cshtml.g.cs
 D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\Patients\Edit.cshtml.g.cs
 D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\Patients\Index.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\bin\Debug\net5.0\libman.json
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\Sandbox\Index.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\PatientClinicalData\Index.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\PatientClinicalDatas\Create.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\PatientClinicalDatas\Delete.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\PatientClinicalDatas\Details.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\PatientClinicalDatas\Edit.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\obj\Debug\net5.0\Razor\Views\PatientClinicalDatas\Index.cshtml.g.cs
+D:\Software Development\Projects\clinical_workflow\ClincalWorkflowWeb\bin\Debug\net5.0\web.config

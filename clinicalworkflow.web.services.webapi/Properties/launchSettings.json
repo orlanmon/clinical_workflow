@@ -2,8 +2,12 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/clinicalworkflow.web.service.webapi",
+      "sslPort": 0
+    },
     "iisExpress": {
-      "applicationUrl": "http://localhost:34269",
+      "applicationUrl": "http://localhost:2883",
       "sslPort": 0
     }
   },
@@ -11,14 +15,14 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
+      "workingDirectory": "D:\\Software Development\\Projects\\clinical_workflow\\clinicalworkflow.web.services.webapi",
       "launchBrowser": true,
-      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "clinicalworkflow.web.services.webapi": {
-      "commandName": "Project",
+      "commandName": "IIS",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {

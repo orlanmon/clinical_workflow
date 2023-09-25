@@ -46,9 +46,12 @@ namespace clinicalworkflow.web.services.webapi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "clinicalworkflow.web.services.webapi v1"));
+               
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "clinicalworkflow.web.services.webapi v1"));
+
 
             app.UseHttpsRedirection();
 

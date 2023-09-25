@@ -1,0 +1,11 @@
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\clinicalworkflow.web.service.webapi_v2.exe
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\appsettings.json
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\clinicalworkflow.web.service.webapi_v2.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\clinicalworkflow.web.service.webapi_v2.deps.json
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\clinicalworkflow.web.service.webapi_v2.runtimeconfig.json
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\clinicalworkflow.web.service.webapi_v2.pdb
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.service.webapi_v2\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

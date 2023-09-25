@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "N0I/duicePcmEgIQ8H471q09HcI1ANy7mAP97rVFZ4Bnb0mim6tGxk2q+VpQO8WgTg+png1oIKrWEGuzlC43bQ==",
+  "success": true,
+  "projectFilePath": "D:\\Software Development\\Projects\\clinical_workflow\\clinicalworkflow.web.service.webapi_v2\\clinicalworkflow.web.service.webapi_v2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\monac\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\monac\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\monac\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\monac\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\monac\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\monac\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

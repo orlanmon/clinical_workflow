@@ -1,0 +1,15 @@
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\bin\Release\net5.0\clinicalworkflow.web.services.dto.deps.json
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\bin\Release\net5.0\clinicalworkflow.web.services.dto.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\bin\Release\net5.0\ref\clinicalworkflow.web.services.dto.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\bin\Release\net5.0\clinicalworkflow.web.services.dto.pdb
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\bin\Release\net5.0\clinicalworkflow.web.services.model.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\bin\Release\net5.0\clinicalworkflow.web.services.model.pdb
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.csproj.AssemblyReference.cache
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.AssemblyInfoInputs.cache
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.AssemblyInfo.cs
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.csproj.CoreCompileInputs.cache
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.csproj.CopyComplete
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\ref\clinicalworkflow.web.services.dto.dll
+D:\Software Development\Projects\clinical_workflow\clinicalworkflow.web.services.dto\obj\Release\net5.0\clinicalworkflow.web.services.dto.pdb
